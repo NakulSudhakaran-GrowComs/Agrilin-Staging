@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>D:\Eclipse\eclipse-workspace\agrilin\testnglisteners.xml</span>
+                    <span>D:\Agrilin-Staging\agrilin\testnglisteners.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">15 methods, 1 failed,   14 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.agrilin.testscript.InvalidLogIn" class="method navigator-link" hash-for-method="inValidLoginScenaio_1">inValidLoginScenaio_1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">15 methods,   15 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -115,6 +101,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.agrilin.testscript.InvalidLogIn" class="method navigator-link" hash-for-method="inValidLoginScenaio_1">inValidLoginScenaio_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.agrilin.testscript.InvalidLogIn" class="method navigator-link" hash-for-method="inValidLoginScenaio_1">inValidLoginScenaio_1</a> <!-- method navigator-link -->
@@ -197,50 +188,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.agrilin.testscript.InvalidLogIn</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="inValidLoginScenaio_1">
-                  </a> <!-- inValidLoginScenaio_1 -->
-                  <span class="method-name">inValidLoginScenaio_1</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;button class=&quot;flex items-center text-xs sm:text-md hover:text-yellow-custom-900 text-white border rounded-lg hover:border-yellow-custom-900 border-white px-4 md:px-6 lg:px-10 py-4&quot;&gt; is not clickable at point (920,64) because another element &lt;div id=&quot;headlessui-dialog-panel-:r1:&quot; class=&quot;flex justify-center items-center h-full min-h-full min-w-full ease-in duration-200 opacity-0 scale-95&quot;&gt; obscures it
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [5d7825dd-24e6-4a61-99cf-2b882b5b0e56, clickElement {id=992fbb79-f97e-4f78-9fd4-559037efb7c2}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0.1, moz:accessibilityChecks: false, moz:buildID: 20240526221752, moz:debuggerAddress: 127.0.0.1:16660, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23192, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:16660/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (5d7825dd-24e6-4a61-99cf-2b882b5b0e56)] -&gt; xpath: //div/button[text()=&apos;SIGN IN&apos;]]
-Session ID: 5d7825dd-24e6-4a61-99cf-2b882b5b0e56
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-	at com.agrilin.page.HomePage.signIn(HomePage.java:38)
-	at com.agrilin.generic.LoginLogout.signInButton(LoginLogout.java:42)
-	at com.agrilin.testscript.InvalidLogIn.inValidLoginScenaio_1(InvalidLogIn.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1570)
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -350,6 +297,13 @@ Session ID: 5d7825dd-24e6-4a61-99cf-2b882b5b0e56
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="inValidLoginScenaio_1">
+                  </a> <!-- inValidLoginScenaio_1 -->
+                  <span class="method-name">inValidLoginScenaio_1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="inValidLoginScenaio_2">
                   </a> <!-- inValidLoginScenaio_2 -->
                   <span class="method-name">inValidLoginScenaio_2</span>
@@ -374,7 +328,7 @@ Session ID: 5d7825dd-24e6-4a61-99cf-2b882b5b0e56
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Eclipse\eclipse-workspace\agrilin\testnglisteners.xml</span>
+            <span class="header-content">D:\Agrilin-Staging\agrilin\testnglisteners.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -515,68 +469,68 @@ data.addRows(15);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'trendingProducts')
 data.setCell(0, 2, 'com.agrilin.testscript.TrendingProductsTest')
-data.setCell(0, 3, 118804);
+data.setCell(0, 3, 15623);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'trendingProducts')
 data.setCell(1, 2, 'com.agrilin.testscript.TrendingProductsTest')
-data.setCell(1, 3, 104753);
+data.setCell(1, 3, 14900);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'trendingProducts')
 data.setCell(2, 2, 'com.agrilin.testscript.TrendingProductsTest')
-data.setCell(2, 3, 15881);
+data.setCell(2, 3, 12423);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'logInTest')
 data.setCell(3, 2, 'com.agrilin.testscript.HomePageTest')
-data.setCell(3, 3, 9735);
+data.setCell(3, 3, 9348);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'logInTest')
 data.setCell(4, 2, 'com.agrilin.testscript.HomePageTest')
-data.setCell(4, 3, 9119);
+data.setCell(4, 3, 7674);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'logInTest')
 data.setCell(5, 2, 'com.agrilin.testscript.HomePageTest')
-data.setCell(5, 3, 8623);
+data.setCell(5, 3, 6684);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'validLogIn')
 data.setCell(6, 2, 'com.agrilin.testscript.ValidLogIn')
-data.setCell(6, 3, 7635);
+data.setCell(6, 3, 6118);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'validLogIn')
 data.setCell(7, 2, 'com.agrilin.testscript.ValidLogIn')
-data.setCell(7, 3, 4654);
+data.setCell(7, 3, 5076);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'validLogIn')
 data.setCell(8, 2, 'com.agrilin.testscript.ValidLogIn')
-data.setCell(8, 3, 4321);
+data.setCell(8, 3, 4630);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'inValidLoginScenaio_2')
+data.setCell(9, 1, 'inValidLoginScenaio_1')
 data.setCell(9, 2, 'com.agrilin.testscript.InvalidLogIn')
-data.setCell(9, 3, 1909);
+data.setCell(9, 3, 2944);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'inValidLoginScenaio_2')
+data.setCell(10, 1, 'inValidLoginScenaio_1')
 data.setCell(10, 2, 'com.agrilin.testscript.InvalidLogIn')
-data.setCell(10, 3, 1039);
+data.setCell(10, 3, 1818);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'inValidLoginScenaio_1')
+data.setCell(11, 1, 'inValidLoginScenaio_2')
 data.setCell(11, 2, 'com.agrilin.testscript.InvalidLogIn')
-data.setCell(11, 3, 1034);
+data.setCell(11, 3, 1811);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'inValidLoginScenaio_2')
 data.setCell(12, 2, 'com.agrilin.testscript.InvalidLogIn')
-data.setCell(12, 3, 879);
+data.setCell(12, 3, 1280);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'inValidLoginScenaio_1')
 data.setCell(13, 2, 'com.agrilin.testscript.InvalidLogIn')
-data.setCell(13, 3, 813);
+data.setCell(13, 3, 1113);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'inValidLoginScenaio_1')
+data.setCell(14, 1, 'inValidLoginScenaio_2')
 data.setCell(14, 2, 'com.agrilin.testscript.InvalidLogIn')
-data.setCell(14, 3, 34);
+data.setCell(14, 3, 719);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -619,230 +573,243 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
+                <span class="method-name">openBrowser(edge)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
                 <span class="method-name">openBrowser(firefox)</span>
                 <span class="method-start">1 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">openBrowser(edge)</span>
-                <span class="method-start">1 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">logInTest</span>
-                <span class="method-start">9242 ms</span>
+                <span class="method-start">7613 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logInTest</span>
-                <span class="method-start">11498 ms</span>
+                <span class="method-start">9696 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">19138 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">logInTest</span>
-                <span class="method-start">19260 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">22138 ms</span>
+                <span class="method-start">16170 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.agrilin.testscript.TrendingProductsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">openBrowser(edge)</span>
-                <span class="method-start">22298 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
                 <span class="method-name">openBrowser(chrome)</span>
-                <span class="method-start">22746 ms</span>
+                <span class="method-start">17052 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.agrilin.testscript.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">28689 ms</span>
+                <span class="method-start">18503 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">logInTest</span>
+                <span class="method-start">18952 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.agrilin.testscript.TrendingProductsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">openBrowser(firefox)</span>
-                <span class="method-start">31410 ms</span>
+                <span class="method-name">openBrowser(edge)</span>
+                <span class="method-start">20131 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">trendingProducts</span>
-                <span class="method-start">33457 ms</span>
+                <span class="method-start">26901 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">trendingProducts</span>
-                <span class="method-start">35476 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">trendingProducts</span>
-                <span class="method-start">49111 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">65186 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.agrilin.testscript.InvalidLogIn</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">openBrowser(firefox)</span>
-                <span class="method-start">66691 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">inValidLoginScenaio_1</span>
-                <span class="method-start">77565 ms</span>
-              </div> <!-- test-method -->
+              <div class="chronological-class-name">com.agrilin.testscript.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">77917 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">openBrowser(firefox)</span>
-                <span class="method-start">79766 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">inValidLoginScenaio_2</span>
-                <span class="method-start">91055 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">93074 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.agrilin.testscript.ValidLogIn</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">openBrowser(firefox)</span>
-                <span class="method-start">94758 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validLogIn</span>
-                <span class="method-start">107307 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">111772 ms</span>
+                <span class="method-start">29125 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.agrilin.testscript.TrendingProductsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">trendingProducts</span>
+                <span class="method-start">30972 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser(firefox)</span>
+                <span class="method-start">32736 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">140642 ms</span>
+                <span class="method-start">39920 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.agrilin.testscript.InvalidLogIn</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">openBrowser(chrome)</span>
-                <span class="method-start">140975 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">inValidLoginScenaio_1</span>
-                <span class="method-start">146953 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">147934 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">openBrowser(chrome)</span>
-                <span class="method-start">148157 ms</span>
+                <span class="method-start">40391 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.agrilin.testscript.TrendingProductsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">152914 ms</span>
+                <span class="method-start">47918 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.agrilin.testscript.InvalidLogIn</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">inValidLoginScenaio_2</span>
-                <span class="method-start">154561 ms</span>
+                <span class="method-name">inValidLoginScenaio_1</span>
+                <span class="method-start">50426 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">openBrowser(edge)</span>
-                <span class="method-start">154632 ms</span>
+                <span class="method-start">50936 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.agrilin.testscript.TrendingProductsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">trendingProducts</span>
+                <span class="method-start">51488 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.agrilin.testscript.InvalidLogIn</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">53780 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser(chrome)</span>
+                <span class="method-start">54141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">inValidLoginScenaio_1</span>
+                <span class="method-start">63540 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">inValidLoginScenaio_2</span>
+                <span class="method-start">64980 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">65803 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.agrilin.testscript.TrendingProductsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">66902 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.agrilin.testscript.InvalidLogIn</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser(edge)</span>
+                <span class="method-start">67555 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">155845 ms</span>
+                <span class="method-start">67942 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.agrilin.testscript.ValidLogIn</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">openBrowser(chrome)</span>
-                <span class="method-start">156505 ms</span>
+                <span class="method-start">68303 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.agrilin.testscript.InvalidLogIn</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">inValidLoginScenaio_1</span>
-                <span class="method-start">162335 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">163670 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser(firefox)</span>
+                <span class="method-start">69246 ms</span>
+              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.agrilin.testscript.ValidLogIn</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validLogIn</span>
-                <span class="method-start">164250 ms</span>
+                <span class="method-start">77464 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.agrilin.testscript.InvalidLogIn</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">inValidLoginScenaio_2</span>
+                <span class="method-start">78159 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">79923 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.agrilin.testscript.ValidLogIn</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">openBrowser(edge)</span>
-                <span class="method-start">165072 ms</span>
+                <span class="method-start">81707 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">84672 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.agrilin.testscript.InvalidLogIn</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">inValidLoginScenaio_1</span>
+                <span class="method-start">88319 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">89587 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser(firefox)</span>
+                <span class="method-start">92010 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.agrilin.testscript.ValidLogIn</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validLogIn</span>
+                <span class="method-start">92832 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">172590 ms</span>
+                <span class="method-start">98531 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.agrilin.testscript.InvalidLogIn</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">inValidLoginScenaio_2</span>
-                <span class="method-start">173624 ms</span>
+                <span class="method-start">103459 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">174659 ms</span>
+                <span class="method-start">104244 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.agrilin.testscript.ValidLogIn</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">openBrowser(edge)</span>
-                <span class="method-start">175977 ms</span>
+                <span class="method-name">openBrowser(firefox)</span>
+                <span class="method-start">105880 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validLogIn</span>
-                <span class="method-start">182103 ms</span>
+                <span class="method-start">114616 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">187163 ms</span>
+                <span class="method-start">119381 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

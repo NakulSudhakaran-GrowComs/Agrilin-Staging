@@ -15,6 +15,7 @@ com\agrilin\rough\HashMapTest.class
 com\agrilin\page\EnterOTPPage.class
 com\agrilin\testscript\HomePageTest.class
 com\agrilin\locators\SignInPageLocators.class
+com\agrilin\locators\Domestic_ExportLocators.class
 com\agrilin\generic\TestListners.class
 com\agrilin\locators\OTPPageLocators.class
 com\agrilin\rough\TrendingProductDemo.class
